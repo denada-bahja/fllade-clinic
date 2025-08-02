@@ -1,0 +1,110 @@
+.hero-images {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-grid img {
+  height: 350px;
+}
+
+.about-us-text {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem 0;
+}
+
+.about-us-text h1 {
+  font-family: "Prata", serif;
+  font-size: 2rem;
+  color: #6d4d46;
+  text-shadow: 0 0 15px white;
+  letter-spacing: 5px;
+  font-weight: bold;
+
+}
+
+.about-section {
+  background: linear-gradient(to bottom, #f0e9e7 80%, #f8f9fa 80%);
+
+}
+
+.thank-you-section {
+  padding: 4rem 2rem;
+}
+
+.thank-you-section h2 {
+  font-family: "Prata", serif;
+}
+
+.sub-title {
+  font-family: "Prata", serif;
+  font-weight: 500;
+  color: #96695e;
+  margin-top: -10px;
+  margin-bottom: 1rem;
+}
+
+.about-paragraph {
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.story-details {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background-color: #f0e9e7;
+}
+
+.about-images {
+  height: 300px;
+}
+
+.about-images img {
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.about-text {
+  background-color: #96695e;
+  color: #f0e9e7;
+}
+
+.about-button {
+  color: #96695e;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.about-button:hover {
+  background-color: #ffffffe5;
+}
+
+.staff-img {
+  height: 250px;
+}
+
+.staff-section h3 {
+  font-family: "Prata", serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+@media(max-width: 1000px) {
+  .about-images {
+    height: 400px;
+  }
+}
+
+@media (max-width: 800px) {
+  .image-grid img {
+    height: 200px;
+  }
+}

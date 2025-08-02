@@ -1,0 +1,178 @@
+.hero-section {
+  background: linear-gradient(to bottom, #f8f9fa 48%, #96695e 53%);
+  padding-top: 1rem;
+}
+
+.treatment-image {
+  width: 100%;
+  height: auto;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.text-hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.clinic-logo {
+  max-height: 120px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #f0e9e7;
+  background-color: #7a3b2b;
+  border: 2px solid #f0e9e7;
+  border-radius: 2em;
+  transition: all 0.3s ease;
+  width: 100%;
+  max-width: 400px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-btn:hover {
+  background-color: #58261a;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+  font-family: "Nunito Sans", sans-serif;
+  color: #f0e9e7;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.end-row {
+  background-color: #f0e9e7;
+  color: #96695e;
+  border-top: 1px solid rgba(150, 105, 94, 0.2);
+  padding: 1.5rem 0;
+  overflow-x: hidden;
+}
+
+.feature-row {
+  margin: 0 -0.5rem;
+}
+
+.feature-col {
+  padding: 0 0.5rem;
+}
+
+.end-row {
+  background-color: #f0e9e7;
+  color: #96695e;
+  border-top: 1px solid rgba(150, 105, 94, 0.2);
+  padding: 1.5rem 0;
+  overflow-x: hidden;
+}
+
+.feature-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -0.5rem;
+}
+
+.feature-col {
+  padding: 0 0.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 280px;
+  min-width: 0;
+}
+
+.feature-icon {
+  margin-right: 0.75rem;
+  font-size: 1rem;
+  color: #7a3b2b;
+  flex-shrink: 0;
+}
+
+.feature-text {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .description {
+    font-size: 1rem;
+  }
+
+  .clinic-logo {
+    max-height: 110px;
+  }
+
+  .feature-item {
+    padding: 0.6rem 1rem;
+  }
+
+  .feature-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-section {
+    background: linear-gradient(to bottom, #f8f9fa 40%, #96695e 60%);
+  }
+
+  .clinic-logo {
+    max-height: 90px;
+  }
+
+  .hero-btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .description {
+    padding: 0 0.5rem;
+    color: #96695e;
+  }
+
+  .feature-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .feature-item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .feature-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .feature-text {
+    font-size: 0.85rem;
+  }
+}

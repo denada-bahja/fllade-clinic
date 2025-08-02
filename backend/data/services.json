@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "6869472a8c51a487555b37f6",
+    "title": "HydraFacial",
+    "image": "https://i.pinimg.com/736x/e7/f6/be/e7f6bec5e790135e5c3b25305c6e44b1.jpg",
+    "description": "HydraFacial deeply cleanses, exfoliates, and hydrates the skin using a patented vortex technology. It removes impurities and infuses the skin with serums rich in antioxidants, peptides, and hyaluronic acid, leaving the complexion fresh, glowing, and rejuvenated."
+  },
+  {
+    "_id": "686947fa8c51a487555b3895",
+    "title": "Chemical Peeling",
+    "image": "https://i.pinimg.com/736x/4c/e7/87/4ce787923972db5c00072b4fd541a929.jpg",
+    "description": "Chemical peels involve the application of a medical-grade acid solution to exfoliate the outer layers of the skin. This treatment targets fine lines, sun damage, acne scars, and dullness, revealing a brighter, smoother, and more youthful complexion over time with continued care."
+  },
+  {
+    "_id": "686948698c51a487555b38e9",
+    "title": "LED Light Therapy",
+    "image": "https://i.pinimg.com/736x/86/97/a5/8697a593d327b4a2c01f1d77ec378152.jpg",
+    "description": "LED Light Therapy uses different wavelengths of light to target specific skin concerns. Blue light helps kill acne-causing bacteria, while red light promotes collagen production and reduces inflammation. It's a non-invasive, relaxing treatment suitable for all skin types."
+  },
+  {
+    "_id": "686948698c51a487555b38e7",
+    "title": "Mesotherapy",
+    "image": "https://i.pinimg.com/736x/86/ab/99/86ab994f3e58c34aa04f3474b28a6ebc.jpg",
+    "description": "Mesotherapy is a non-surgical technique where a cocktail of vitamins, enzymes, and other nourishing ingredients is injected directly into the skin. This revitalizing treatment improves hydration, elasticity, and tone, while helping to reduce signs of aging and boost overall skin health."
+  },
+  {
+    "_id": "686948698c51a487555b38ea",
+    "title": "Oxygen Facial",
+    "image": "https://i.pinimg.com/736x/78/df/6a/78df6aa2a53b08d9775056b3675fc13f.jpg",
+    "description": "An Oxygen Facial delivers a stream of highly concentrated oxygen infused with vitamins and antioxidants into the skin. This rejuvenating treatment improves circulation, enhances hydration, and brightens dull or uneven skin tone, making it perfect before special events."
+  },
+  {
+    "_id": "686958be8c51a487555b42e3",
+    "image": "https://i.pinimg.com/736x/5c/d2/78/5cd27890bf95f98e9657f0dce6e45b39.jpg",
+    "title": "Microneedling",
+    "description": "Microneedling is a minimally invasive treatment that uses tiny needles to create micro-injuries in the skin, stimulating collagen and elastin production. This helps reduce the appearance of acne scars, fine lines, enlarged pores, and uneven texture, leaving your skin smoother and firmer with a rejuvenated glow."
+  }
+]

@@ -1,0 +1,58 @@
+.services-container {
+  font-family: "Nunito Sans", sans-serif;
+  background: linear-gradient(to bottom, #f8f9fa 60%, #f0e9e7 60%);
+}
+
+.service-card {
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1);
+}
+
+.service-image {
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.services-titles {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.services-carousel {
+  width: 100%;
+  gap: 8px;
+}
+
+.arrow-button {
+  font-size: 1.5rem;
+  border-radius: 50%;
+  font-weight: bold;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 6px;
+}
+
+@media (max-width: 550px) {
+  .arrow-button {
+    padding: 0.1rem 0.5rem;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 2rem;
+    margin: 0 2px;
+  }
+}

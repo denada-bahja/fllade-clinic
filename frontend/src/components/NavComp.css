@@ -1,0 +1,177 @@
+.navbar-container {
+  z-index: 1050;
+  position: sticky;
+  top: 0;
+}
+
+.nav-links:hover {
+  transform: scale(1.06);
+}
+
+.banner {
+  border-radius: 0;
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.signIn-button {
+  color: #96695e;
+  background-color: white;
+  border: 1px solid #96695e;
+}
+
+.signIn-button:hover {
+  color: white;
+  background-color: #7a3b2b;
+  border: 1px solid #7a3b2b;
+
+}
+
+.signUp-button {
+  background-color: #7a3b2b;
+}
+
+.signUp-button:hover {
+  background-color: #96695e;
+}
+
+.signOut-button {
+  background-color: #7a3b2b;
+  border: 1px solid #7a3b2b;
+
+}
+
+.signOut-button:hover {
+  background-color: #96695e;
+  border: 1px solid #96695e;
+}
+
+.shoppingCart-icon {
+  color: #7a3b2b;
+}
+
+.shoppingCart-icon:hover {
+  color: #96695e;
+}
+
+.navbar .dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-item {
+  font-size: 13px;
+  padding: 0.1rem 1rem;
+}
+
+
+.submenu {
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+
+.cart-badge {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  transform: translate(50%, -50%);
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 1px 5px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.search-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: none;
+}
+
+.search-input:focus {
+  box-shadow: none;
+  border-color: #93979c;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #93979cf0;
+  font-size: 0.9rem;
+}
+
+.search-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-left: 1px solid;
+  border-color: #ced4da;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  min-width: 38px;
+  color: #96695e;
+  background-color: transparent;
+}
+
+.search-button:hover {
+  background-color: #96695e;
+  border-color: #96695e;
+}
+
+.search-button i {
+  font-size: 1rem;
+}
+
+.no-wrap-text {
+  white-space: nowrap;
+}
+
+.cart-icon {
+  max-width: fit-content;
+
+}
+
+.search-cart-wrapper {
+  margin: 0 3rem;
+}
+
+
+.user-profile {
+  position: relative;
+}
+
+.profile-avatar {
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.add-product {
+  border: 1px solid black;
+}
+
+@media (max-width: 991.5px) {
+  .user-auth {
+    flex-direction: column;
+  }
+
+  .user-auth .user-name,
+  .user-auth .signOut-button {
+    width: 100%;
+  }
+
+  .search-cart-wrapper {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .dropdown-item {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .nav-logo {
+    display: none !important;
+  }
+}

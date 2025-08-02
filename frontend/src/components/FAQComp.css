@@ -1,0 +1,79 @@
+.faq-section {
+  font-family: 'Nunito Sans', sans-serif;
+  background: linear-gradient(to bottom, #f0e9e7 50%, white 50%);
+
+  padding: 2rem;
+}
+
+.faq-div {
+  border-radius: 1rem;
+  background-color: #f8f9fa;
+  margin: 0 4rem;
+}
+
+.faq-text .small-text {
+  font-size: 0.85rem;
+  color: #96695e;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.faq-text h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.faq-accordion .accordion-item {
+  border: none;
+  margin-bottom: 1rem;
+  background: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.faq-accordion .accordion-button:focus {
+  box-shadow: none;
+}
+
+.faq-accordion .accordion-button {
+  font-weight: 600;
+  background-color: transparent;
+  color: #333;
+  padding: 1rem;
+}
+
+.faq-accordion .accordion-button:not(.collapsed) {
+  background-color: #96695e;
+  color: white;
+}
+
+.faq-accordion .accordion-button:not(.collapsed)::after {
+  filter: invert(1);
+}
+
+
+.faq-accordion .accordion-body {
+  background-color: #f8f9fa;
+  padding: 1rem 1.25rem;
+  color: #555;
+  text-align: justify;
+}
+
+.contact-btn {
+  background-color: #96695e;
+  color: #fff;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: #7a524a;
+  color: #fff;
+}
+
+@media(max-width: 650px) {
+  .faq-div {
+    margin: 0;
+  }
+}

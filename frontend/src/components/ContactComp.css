@@ -1,0 +1,68 @@
+.contact-container {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.contact-text {
+  padding: 3rem 0;
+}
+
+.contact-text h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+.contact-text p {
+  font-size: 1.1rem;
+  text-align: center;
+  width: 50%;
+}
+
+.contact-us h2 {
+  margin: 2rem 0 1rem 0;
+  font-weight: 700;
+}
+
+.contact-info {
+  background: linear-gradient(to bottom, #f0e9e7 75%, #f8f9fa 75%);
+  padding: 5rem;
+}
+
+.contact-form {
+  background-color: white;
+  border-radius: 1.5rem;
+  padding: 2rem;
+}
+
+.contact-form h2 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.form {
+  border: none;
+}
+
+.map-section {
+  padding-top: 5rem;
+}
+
+.contact-info h4,
+.contact-info h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+@media (max-width: 500px) {
+  .contact-info {
+    padding: 2rem;
+  }
+
+  .contact-text p {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .contact-text h1 {
+    font-size: 3rem;
+  }
+}
