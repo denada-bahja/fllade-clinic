@@ -298,18 +298,4 @@ Make sure your `.env` file in the `backend/` folder has a valid `MONGO_URI` befo
 - The project includes models and routes for services, products, bookings, contact, and users.
 
 - This project was created as part of the **final project** for a MERN Tech course.
-
-  
-  
-
-## 👩‍💻 Author
-
-  
-
-**Denada Bahja**
-
-📫 Email: denadabahja@gmail.com
-
-🔗 [LinkedIn](https://linkedin.com/in/denada-bahja)
-
-🔗 [GitHub](https://github.com/denada-bahja)
+- 
